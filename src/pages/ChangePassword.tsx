@@ -16,17 +16,11 @@ const ChangePassword: React.FC = () => {
         <IonToolbar>
           <IonTitle>Change Password</IonTitle>
           <IonButtons slot="start">
-            <IonBackButton defaultHref="/private/home" />
+            <IonBackButton defaultHref="/home" />
           </IonButtons>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-      </IonContent>
+      <IonContent fullscreen>This is change password</IonContent>
     </IonPage>
   );
 };

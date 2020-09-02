@@ -15,9 +15,7 @@ const Login: React.FC = () => {
   const { loggedIn, login } = useContext(AuthContext);
 
   if (loggedIn) {
-    console.log("loggedIn");
-
-    return <Redirect to="/private/home"></Redirect>;
+    return <Redirect path="/home" to="/home"></Redirect>;
   }
 
   return (
